@@ -1,0 +1,92 @@
+%twothird {
+  width: $w_twothird;
+}
+%onethird {
+  width: $w_onethird;
+}
+main {
+  text-align: justify;
+  .about {
+    display: inline-flex;
+    .twothird {
+      width: $w_twothird;
+    }
+    aside {
+      margin: auto auto;
+
+      font-size: 8vmax;
+
+      ul li {
+        list-style: none;
+        text-align: center;
+        a:hover {
+          color: $thirdcolor;
+        }
+      }
+    }
+  }
+
+  .test {
+    display: inline-flex;
+    
+  }
+  .half {
+    width: $width/2;
+    ul li {
+      margin-left: 15px;
+    }
+  }
+  .half2 {
+    margin-left: 15px;    
+    width: $width/2;
+    ul li {
+      margin-left: 15px;
+    }
+  }
+}
+
+/*
+
+
+
+
+
+section{
+    text-align: justify;    
+    
+}
+.left_section{
+    @extend %twothird;
+    
+}
+.right_section, aside{
+    clear: left;
+    float: right;    
+}
+.twothird{
+    margin: auto;
+    width: $w_twothird;
+    display: inline-block;
+}
+
+aside{
+    width: $w_onethird;
+    border: 1vmin solid $seccolor;
+    padding: 2%;
+    ul li{
+        padding: 2%;
+        font-size: 7vmax;
+        list-style: none;
+        text-align: center;
+    }
+    a:hover{
+        color: $thirdcolor;
+    }
+}
+.list_left{
+    margin-left: 15%;
+}
+.formulario{
+    margin: 0 auto;
+    display: block;
+}*/

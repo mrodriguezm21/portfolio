@@ -1,0 +1,27 @@
+header {
+  border-bottom: 2px solid $primcolor;
+  overflow: hidden;
+  background-color: $seccolor;
+  #logo {
+    width: 8vmax;
+    margin: 5px 0px 0px 5px;
+  }
+  h1 {
+    display: inline-flex;
+  }
+  nav {
+    margin:0 auto;
+    padding-bottom: 3%;
+    text-align: center;
+
+    ul li {
+      padding: 1px;
+      font-weight: 600;
+      list-style: none;
+      display: inline;
+    }
+    li a:hover {
+      color: $thirdcolor;
+    }
+  }
+}

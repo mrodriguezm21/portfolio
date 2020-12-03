@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+main {
+  margin: 5%; }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #000; }
+
+header {
+  border-bottom: 2px solid #000;
+  overflow: hidden;
+  background-color: #A1A1A1; }
+  header #logo {
+    width: 8vmax;
+    margin: 5px 0px 0px 5px; }
+  header h1 {
+    display: inline-flex; }
+  header nav {
+    margin: 0 auto;
+    padding-bottom: 3%;
+    text-align: center; }
+    header nav ul li {
+      padding: 1px;
+      font-weight: 600;
+      list-style: none;
+      display: inline; }
+    header nav li a:hover {
+      color: #DEDEDE; }
+
+main {
+  text-align: justify; }
+  main .about {
+    display: inline-flex; }
+    main .about .twothird {
+      width: 70%; }
+    main .about aside {
+      margin: auto auto;
+      font-size: 8vmax; }
+      main .about aside ul li {
+        list-style: none;
+        text-align: center; }
+        main .about aside ul li a:hover {
+          color: #DEDEDE; }
+  main .test {
+    display: inline-flex; }
+  main .half {
+    width: 50%; }
+    main .half ul li {
+      margin-left: 15px; }
+  main .half2 {
+    margin-left: 15px;
+    width: 50%; }
+    main .half2 ul li {
+      margin-left: 15px; }
+
+/*
+
+
+
+
+
+section{
+    text-align: justify;    
+    
+}
+.left_section{
+    @extend %twothird;
+    
+}
+.right_section, aside{
+    clear: left;
+    float: right;    
+}
+.twothird{
+    margin: auto;
+    width: $w_twothird;
+    display: inline-block;
+}
+
+aside{
+    width: $w_onethird;
+    border: 1vmin solid $seccolor;
+    padding: 2%;
+    ul li{
+        padding: 2%;
+        font-size: 7vmax;
+        list-style: none;
+        text-align: center;
+    }
+    a:hover{
+        color: $thirdcolor;
+    }
+}
+.list_left{
+    margin-left: 15%;
+}
+.formulario{
+    margin: 0 auto;
+    display: block;
+}*/
+
+/*# sourceMappingURL=styles.css.map */
